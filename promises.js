@@ -14,10 +14,15 @@
   
 //   setTimeoutPromisified(3000).then(callback)
 
-  function random(){
-
+  function random(resolve){//resolve is also a function
+setTimeout(resolve,3000);
   }
   
-  let p=new Promise(random)
-  console.log(p);
+  let p=new Promise(random)//supposed to return u somthing eventually
+
+//using the eventual  value returned by the promise
+  function callback(){
+  console.log("promise succeded")
+}
+p.then(callback);
   
