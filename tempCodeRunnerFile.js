@@ -1,3 +1,3 @@
-for (let index in studentName) {
-    console.log(studentName[index]);
-}
+function setTimeoutPromisified(ms) {
+//   return new Promise(resolve => setTimeout(resolve, ms));
+// }
