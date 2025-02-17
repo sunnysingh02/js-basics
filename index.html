@@ -1,0 +1,78 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom getElementById() method</title>
+    <script>
+        //function to change the color of button
+        function changer(){
+            var demo=document.getElementById("changer");
+            demo.style.color="green";
+        }
+    </script>
+</head>
+<body style="text-align: center;">
+    <h1 >geeks for geeks</h1>
+    <h2 id="changer">DOM getElementById method</h2>
+    <!--click on button to change the color-->
+    <!-- <input type="button"
+    onclick="changer()"
+    value="click here to change color"/>
+    
+</body>
+</html> --> -->
+
+<!--This example describes the getElementById() method where the element_id is used to change the content on clicking the button.-->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM getElementById() Method</title>
+    <script>
+        //function to chnage the content of element
+        function geeks(){
+            var demo=document.getElementById("geeks");
+            demo.innerHTML="welcome to GeeksforGeeks!";
+        }
+    </script>
+</head>
+<body style="text-align: center;">
+    <h1>GeeksforGeeks</h1>
+    <h2>DOM getElementById() Method</h2>
+    <h3 id="geeks">hello geeks!</h3>
+    <!--click here to chnage content-->
+    <!-- <input type="button"
+    onclick="geeks()"
+    value="click here to chnage content" />
+    
+</body>
+</html> --> -->
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	  <title>replit</title>
+	  <link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	
+	<body>
+	  <h1>Todo list</h1>
+	  <h4>1. Take class</h4>
+	  <h4>2. Go out to eat</h4>
+	  <div>
+	    <input type="text" placeholder="Add your toto here"></input>
+	    <button id="btn" onclick="addTodo()">Add Todo</button>
+	  </div>
+	  <script> 
+       function addTodo(){
+       const inputEl=document.querySelector("input");
+       const value=inputEl.value;
+       console.log(value);
+       }
+      </script>
+	</body>
+	
+</html>
